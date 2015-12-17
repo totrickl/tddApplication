@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'tempcar' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 warn package.json TDD_app@0.0.1 No repository field.
+5 warn package.json supertest@0.4.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'tempcar', null ]
+8 verbose cache add name=undefined spec="tempcar" args=["tempcar",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'tempcar',
+9 verbose parsed url   path: 'tempcar',
+9 verbose parsed url   href: 'tempcar' }
+10 silly lockFile 75e6d7f5-tempcar tempcar
+11 verbose lock tempcar /home/nerd/.npm/75e6d7f5-tempcar.lock
+12 silly lockFile 75e6d7f5-tempcar tempcar
+13 silly lockFile 75e6d7f5-tempcar tempcar
+14 verbose addNamed [ 'tempcar', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 6cb1906d-tempcar tempcar@
+17 verbose lock tempcar@ /home/nerd/.npm/6cb1906d-tempcar.lock
+18 silly addNameRange { name: 'tempcar', range: '*', hasData: false }
+19 verbose request where is /tempcar
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 90fa8165811ae3ca
+22 verbose url raw /tempcar
+23 verbose url resolving [ 'https://registry.npmjs.org/', './tempcar' ]
+24 verbose url resolved https://registry.npmjs.org/tempcar
+25 verbose request where is https://registry.npmjs.org/tempcar
+26 info trying registry request attempt 1 at 14:08:53
+27 http GET https://registry.npmjs.org/tempcar
+28 http 404 https://registry.npmjs.org/tempcar
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '2',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Thu, 17 Dec 2015 12:08:54 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-fra1234-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1450354134.074244,VS0,VE101' } ]
+30 silly lockFile 6cb1906d-tempcar tempcar@
+31 silly lockFile 6cb1906d-tempcar tempcar@
+32 error 404 Not Found
+32 error 404
+32 error 404 'tempcar' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'TDD_app'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Linux 4.2.0-19-generic
+34 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "tempcar"
+35 error cwd /home/nerd/WebstormProjects/testProj/nodejs.ru/TDD_app
+36 error node -v v0.10.25
+37 error npm -v 1.4.21
+38 error code E404
+39 verbose exit [ 1, true ]
